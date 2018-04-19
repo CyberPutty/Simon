@@ -1,0 +1,230 @@
+body
+{
+  background-color: #4D6079;
+}
+.device
+{
+  border: 4px solid #999999;
+  box-shadow: 0px 0px 4px ;
+  position:relative;
+  padding:21px;
+  margin-top:10%;
+  background-color: #4d4d4d;
+  height: 400px;
+  width:400px;
+  border-radius:100%;
+}
+.primary
+{
+  border-width:1.75px;
+  border-style: solid;
+  border-color: #ababab;
+  box-shadow: 0px 0px 6px;
+  padding: none;
+  margin:none;
+  margin: 5px;
+  height:165px;
+  width:165px;
+
+}
+#red
+{
+  outline:0;
+  
+  background-color:#cc0000;
+  clear:left;
+  float:left;
+  border-top-left-radius:100%;
+}
+#blue
+{
+  outline:0;
+  background-color:#0000cd;
+  float:right; 
+  border-top-right-radius:100%;
+}
+
+#green
+{
+  outline:0;
+  background-color:	green;
+ clear:left;
+  float:left;
+  border-bottom-left-radius:100%;
+}
+#yellow
+{
+  outline:0;
+ background-color:#cccc00;
+  float:right;
+  border-bottom-right-radius:100%;
+}
+.center
+{
+  border: 5px double #4d4d4d;
+  box-shadow: 0px 0px 1px 1px #4d4d4d;
+  position:absolute;
+  left:100px;
+  top:100px;
+  background-color: #F0F1F4;
+  width:200px;
+  height:200px;
+  z-index:10;
+  border-radius:100%;
+}
+.menu
+{
+  position:relative;
+  top:90px;
+  left:20px;
+}
+#disp
+{
+  border: 2px solid #4d4d4d;
+  position:absolute;
+  
+  padding:2px;
+  margin-left:8px;
+  width:30px;
+  height:40px;
+  border-radius:5px;
+  background-color:black;
+  color: red;
+  display:inline;
+  vertical-align:bottom;
+}
+#dispC
+{
+  position:relative;
+  
+}
+#start
+{
+ 
+  outline:0;
+  margin-left:62px;
+  background-color: firebrick;
+  border: 4px solid #4d4d4d;
+  box-shadow:0px 0px 1px;
+  border-radius:100%;
+  width:25px;
+  height:25px;
+  display:inline;
+}
+#strict
+{
+  outline:0;
+ margin-left:20px;
+  background-color: goldenrod;
+  border: 4px solid #4d4d4d;
+  
+  box-shadow:0px 0px 1px;
+  border-radius:100%;
+  width:25px;
+  height:25px;
+  display:inline;
+}
+#indicator
+{
+
+  position:absolute;
+  width:10px;
+  height:10px;
+  left:118.5px;
+  bottom:30px;
+  border:2px solid #4d4d4d;
+  border-radius:100%;
+  background-color: limegreen;
+}
+#strict:active
+{
+  box-shadow:none;
+}
+#start:active
+{
+ 
+  box-shadow:none;
+}
+.start-text
+{
+  font-family:mono;
+position:absolute;
+  left:60px;
+}
+.strict-text
+{
+  font-family:mono;
+  position:absolute;
+  left:108px;
+}
+.simon
+{
+  font-family:mono;
+  position:absolute;
+  left: 45px;
+  top:25px;
+}
+.switchBox
+{
+  border: 2px solid #4d4d4d;
+  position:absolute;
+  width:40px;
+  height:12px;
+  top:65px;
+  left:55px;
+ background-color:#303030;
+}
+#slider
+{
+  position:relative;
+  display: block;  
+  box-shadow:0px 0px 2px;
+  top:0px;
+  left:0px;
+  bottom:2px;
+  width:15px;
+  height:8px;
+  background-color:lightgray;
+}
+.trans
+{
+  -ms-transform: translateX (21px);
+-webkit-transform: translateX (21px);
+-moz-transform: translateX (21px);
+-o-transform: translateX (21px);
+transform: translate(21px);
+}
+#trademark
+{ position:absolute;
+  top:5px;
+  font-size:20px;
+  
+}
+.onText
+{
+  position:relative;
+  left:5px;
+  font-family:mono;
+  font-size:12px;
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.pointer
+{
+  cursor: pointer;
+}
+.light:active
+{
+  filter:brightness(150%);
+}
+ 
+.simonLight
+{
+   filter:brightness(150%);
+}
